@@ -159,11 +159,11 @@ def sort_main_data(os_prod_list,os_name_list,os_code_list, os_type_list, NUMBER_
     #print("temp_list = ", temp_os_type_list)
 
     for i in range(NUMBER_INFO_COLUMNS):
-        temp_el = os_prod_list[i]
-        temp_os_prod_list.append(temp_el)
+        #temp_el = os_prod_list[i]
+        #temp_os_prod_list.append(temp_el)
 
-        main_data.append()
-        print(os_prod_list[i], temp_el, type(os_prod_list[i]), type(temp_el))
+        #main_data.append()
+        #print(os_prod_list[i], temp_el, type(os_prod_list[i]), type(temp_el))
         #temp_list
     #    temp_os_prod_list.append(i)
 
