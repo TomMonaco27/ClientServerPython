@@ -59,7 +59,6 @@ def get_data():
                 print(parse_data(file, num_str))
                 main_data.append(parse_data(file, num_str))
                 num_str += 1
-
         return main_data
     except IOError:
         print('Error get_data(). Input-output error!')
@@ -108,10 +107,10 @@ def parse_data(file, num_str):
                         result.append(matched_os_type[1])
                     else:
                         result.append('None')
+        return result
     except:
         print('Error parse_data()! Something wrong, but don\'t worry, be happy.'
               ' Maybe next time, buy yourself a ice cream :)')
-    return result
 
 
 def write_to_csv(csv_file):

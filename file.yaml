@@ -1,0 +1,9 @@
+object:
+- ball
+- plane
+- pen
+quantity: 3
+price:
+  ball: 100€
+  plane: 20000000€
+  pen: 5€
