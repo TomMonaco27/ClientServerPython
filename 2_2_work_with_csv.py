@@ -36,8 +36,6 @@ os_code_list, os_type_list. В этой же функции создать гл�
 
 ПРОШУ ВАС НЕ УДАЛЯТЬ СЛУЖЕБНЫЕ ФАЙЛЫ TXT И ИТОГОВЫЙ ФАЙЛ CSV!!!
 """
-
-
 import os
 import re
 import csv
@@ -52,7 +50,6 @@ def get_data():
         main_data = [['Изготовитель системы', 'Название ОС', 'Код продукта', 'Тип системы']]
 
         for file in os.listdir('.'):
-
             if os.path.isfile(file) and re.match(file_pattern, file):
 
                 print(file)
